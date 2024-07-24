@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.title {
+    text-align: center;
+    width: 30vw;
+   
+    padding: 2vw 1vw;
+    border-radius: 10px 10px 0 0;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.form {
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    width: 30vw;
+    padding: 2vw 1vw;
+    border-radius: 10%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+input {
+   
+    border-radius: 10px;
+    padding: 1vw 1vw;
+    margin: 5px;
+    padding-left: 10px;
+    text-size-adjust:inherit;
+    /* margin-left: 150px; */
+    /* margin-right:150px ; */
+    justify-content: center;
+}
+.main{
+    border: 11rem;
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 5rem;
+
+    
+}
+.Button{
+    text-align: center;
+  
+    padding-left: 5%;
+    align-items: center;
+} 
