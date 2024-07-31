@@ -1,94 +1,12 @@
-
-
-.App-header {
-  
+/* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+}
+
+.content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: white;
-  padding: 2rem;
-  border-radius: 8px;
-  border-color: rgb(189, 113, 14);
-  background-color:rgb(189, 185, 185);
-  width: 300px;
-  position: relative;
-  cursor: pointer;
-  /* transition: background-color 0.3s ease; */
-  justify-content: center;
-}
-.form:hover{
-  /* transform: scale(1.05); */
-  transition: transform .2s;
- background-color: #0d0d0e;
-}
-
-label {
-  margin: 5px 0;
-  color: black;
-  padding-right: 50px;
-}
-
-input {
-  margin: 5px 0 15px;
-  padding: 8px;
-  font-size: 1em;
-  width: 100%;
-}
-
-button {
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  background-color: rgb(80, 80, 150);
-  border: none;
-  border-radius: 4px;
-}
-
-p {
-  margin: 0;
-  color: rgb(9, 7, 95);
-}
-
-nav {
-  margin-bottom: 20px;
-}
-
-nav a {
-  margin: 0 10px;
-  color: #0d0d0e;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.success-container {
-  text-align: center;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
- 
-}
-
-.button-container {
-  margin-top: 20px;
-}
-.h2{
-  color: black;
-}
-
-
-.body{
-  background: url(https://source.unsplash.com/1280x720/?nature) no-repeat   center center #505050; 
 }

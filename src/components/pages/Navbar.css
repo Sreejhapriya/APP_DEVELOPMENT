@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px; /* Adjust this value based on the height of your navbar */
+  }
+  
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0; /* Ensure it starts from the left */
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #92659b;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  

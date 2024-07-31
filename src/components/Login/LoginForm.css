@@ -1,0 +1,138 @@
+/* body{
+    
+    margin: 0;
+    background-repeat: no-repeat;
+  /* font-family: "Playwrite CU", cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+  /* background:url('./components/Assets/birthday.jpg') no-repeat; */
+  /* background-size: cover;
+  background-position: center; */
+  /* background-image: url('C:\\Users\\Lenovo\\newpro\\src\\components\\images\\party.jpeg'); 
+} */
+.backg {
+    background-image: url('C:\\Users\\Lenovo\\newpro\\src\\components\\Assets\\images\\loginew1.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to full viewport height */
+    display: flex; /* Centers the form horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+  }
+  
+ 
+  
+  .wrapper {
+    width: 420px;
+    background: transparent;
+    border: 3px solid rgba(12, 178, 219, 0.2);
+    backdrop-filter: blur(7px);
+    border-radius: 15px;
+    padding: 30px 40px;
+    justify-content: center;
+    margin-right: 500px;
+  }
+  
+
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height:50px;
+    /* border: 2px solid; */
+    margin:30px 0;
+}
+
+.input-box input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:1px solid rgb(12, 176, 218);
+    outline: none;
+    border-radius:40px;
+    font-size: 20px;
+    /* color: rgb(15, 14, 14); */
+    padding: 20px 45px 20px 20px;
+    color: white;
+}
+.input-box input::placeholder{
+    color: rgb(119, 127, 131); 
+}
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    color: rgb(17, 212, 226);
+    transform: translate(-50);
+    font-size: 18px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    /* accent-color: white; */
+    margin-right: 4px;
+}
+
+.remember-forgot a{
+    /* color:white; */
+    text-decoration: none;
+    font-weight: 900;
+    color: white;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+    
+}
+
+.wrapper button{
+    width: 100%;
+    height:45px;
+    background:rgb(13, 218, 218);
+    border:none;
+    outline:none;
+    border-radius:40px ;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 900;
+}
+
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: white;
+    
+}
+
+.register-link p a{
+    /* color: white; */
+    text-decoration: none;
+    font-weight: 1000;
+    color:white;
+
+}
+
+.register-link p a:hover{
+    text-decoration:underline;
+    
+}
